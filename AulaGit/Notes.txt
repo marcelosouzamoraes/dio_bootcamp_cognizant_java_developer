@@ -4,7 +4,28 @@ cd dio_bootcamp_cognizant_java_developer
 
 git status
 
-git add -A
-git commit -m "inclusao de nova pasta git"
-clear
-git push origin main
+Como sugerido no GitHub ajuda :
+
+Crie um novo repositório no GitHub.
+Abra o Git Bash.
+Altere o diretório de trabalho atual para o seu projeto local.
+Inicialize o diretório local como um repositório Git.
+
+$ git init
+Adicione os arquivos no seu novo repositório local. Isso os prepara para o primeiro commit.
+
+$ git add .
+Confirme os arquivos que você preparou em seu repositório local.
+
+$ git commit -m "First commit"
+Na parte superior da página de Instalação rápida do seu repositório GitHub, clique para copiar o URL do repositório remoto.
+
+No prompt de comando, adicione a URL do repositório remoto para onde o repositório local será enviado.
+
+$ git remote add Origin <remote repository URL>
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+Envie as alterações no seu repositório local para o GitHub.
+
+$ git Push Origin master
