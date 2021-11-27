@@ -1,0 +1,10 @@
+GitDash Comands
+
+cd dio_bootcamp_cognizant_java_developer
+
+git status
+
+git add -A
+git commit -m "inclusao de nova pasta git"
+clear
+git push origin main
