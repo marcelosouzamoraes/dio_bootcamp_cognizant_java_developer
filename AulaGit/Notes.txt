@@ -1,3 +1,9 @@
+
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+
 GitDash Comands
 
 cd dio_bootcamp_cognizant_java_developer
