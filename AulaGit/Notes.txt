@@ -25,7 +25,9 @@ $ git status
 1° Conetar o remoto aa local para acertar o main/master
 $ git remote add origin URL
 $ git pull origin main
-$ git checkout -b main
+$ git checkout -b main 
+também troca o branch
+git 
 $ git status
 
 $ git add .
