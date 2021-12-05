@@ -12,10 +12,13 @@ Abra o Git Bash.
 Altere o diretório de trabalho atual para o seu projeto local.
 Inicialize o diretório local como um repositório Git.
 
-$git config --global init.defaultBranch main
+
 
 $ git init
 Adicione os arquivos no seu novo repositório local. Isso os prepara para o primeiro commit.
+
+$git config --global init.defaultBranch main
+caso o Braunch esteja como master
 
 $ git status
 
