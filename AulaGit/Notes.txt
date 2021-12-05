@@ -1,14 +1,9 @@
 
-git branch -m main master
-git fetch origin
-git branch -u origin/master master
-git remote set-head origin -a
-
-GitDash Comands
+GitDash commands
 
 cd dio_bootcamp_cognizant_java_developer
 
-git status
+
 
 Como sugerido no GitHub ajuda :
 
@@ -17,21 +12,31 @@ Abra o Git Bash.
 Altere o diretório de trabalho atual para o seu projeto local.
 Inicialize o diretório local como um repositório Git.
 
+$git config --global init.defaultBranch main
+
 $ git init
 Adicione os arquivos no seu novo repositório local. Isso os prepara para o primeiro commit.
+
+$ git status
+
+1° Conetar o remoto aa local para acertar o main/master
+$ git remote add origin URL
+$ git pull origin main
+$ git checkout -b main
+$ git status
 
 $ git add .
 Confirme os arquivos que você preparou em seu repositório local.
 
 $ git commit -m "First commit"
 Na parte superior da página de Instalação rápida do seu repositório GitHub, clique para copiar o URL do repositório remoto.
-
 No prompt de comando, adicione a URL do repositório remoto para onde o repositório local será enviado.
 
-$ git remote add Origin <remote repository URL>
-# Sets the new remote
 $ git remote -v
 # Verifies the new remote URL
-Envie as alterações no seu repositório local para o GitHub.
 
+$ git log --oneline
+# log de commits
+
+Envie as alterações no seu repositório local para o GitHub.
 $ git Push Origin master
